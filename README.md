@@ -36,7 +36,7 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/zamanmonirbu/cool-media-backend/tree/deploy-code
+   git clone https://github.com/zamanmonirbu/cool-media-backend.git
    cd cool-media-backend
    ```
 

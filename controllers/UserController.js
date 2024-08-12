@@ -166,3 +166,19 @@ export const unfollowUser = async (req, res) => {
     }
   }
 };
+
+export const searchUser= async (req, res) => {
+  try {
+    const { query } = req.query;
+    // console.log(query);
+    const users = await UserModel.find({
+      $or: [
+        { firstname: { $regex: query, $options: 'i' } },
+        { lastname: { $regex: query, $options: 'i' } }
+      ]
+    });
+    res.status(200).json(users);
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+};

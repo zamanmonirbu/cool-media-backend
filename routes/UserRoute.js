@@ -13,12 +13,16 @@ import {
     getAllUsers, 
     getUser, 
     unfollowUser, 
-    updateUser 
+    updateUser,
+    searchUser
 } from '../controllers/UserController.js';
 import authMiddleWare from '../middleware/AuthMiddleware.js';
 
 // Create a router object
 const router = express.Router();
+
+//Define search route
+router.get('/search', searchUser);
 
 // Define route to get a specific user by ID
 router.get('/:id', getUser);
@@ -37,6 +41,8 @@ router.put('/:id/follow', authMiddleWare, followUser);
 
 // Define route to unfollow a user by ID with authentication middleware
 router.put('/:id/unfollow', authMiddleWare, unfollowUser);
+
+
 
 // Export the router to be used in other parts of the application
 export default router;

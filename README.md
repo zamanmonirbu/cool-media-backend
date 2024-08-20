@@ -1,5 +1,7 @@
 # Cool Media Backend
 
+[Live Link](https://cool-media-client.vercel.app) | [Front-end Code](https://github.com/zamanmonirbu/cool-media-client) | [Back-end Code](https://github.com/zamanmonirbu/cool-media-backend) | [Socket Code](https://github.com/zamanmonirbu/cool-media-socket) | [Demo Video](https://youtu.be/BMk6zPf6T8U)
+
 ## Description
 
 Cool Media is a social media application backend built with Node.js, Express, and MongoDB. It provides RESTful APIs for user authentication, posjs, chat messages, and user interactions like following and unfollowing.
@@ -124,11 +126,16 @@ cool-media-backend/
 └── index.js
 ```
 
-### Author
 
-Md. Moniruzzaman
-- [GitHub](https://github.com/zamanmonirbu)
-- [LinkedIn](https://www.linkedin.com/in/mdmoniruzzamanbu)
-- [Email](mailto:monir.cse6.bu@gmail.com)
-```
+## Connect with Me
 
+- **Email:** [monir.cse6.bu@gmail.com](mailto:monir.cse6.bu@gmail.com)
+- **GitHub:** [![GitHub Icon](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zamanmonirbu)
+- **LinkedIn:** [![LinkedIn Icon](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mdmoniruzzamanbu/)
+- **Codeforces:** [![Codeforces Icon](https://img.shields.io/badge/Codeforces-00FF00?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ZaMo)
+- **LeetCode:** [![LeetCode Icon](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/moniruzzamancse6/)
+- **Portfolio:** [![Portfolio Icon](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=codeforces&logoColor=white)](https://moniruzzamanbu.netlify.app/)
+- **Medium:** [![Medium Icon](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@zamanmonirbu)
+
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
